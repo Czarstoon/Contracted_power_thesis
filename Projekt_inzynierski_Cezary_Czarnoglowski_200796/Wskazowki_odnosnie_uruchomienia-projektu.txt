@@ -1,0 +1,23 @@
+# Używane środowisko Anaconda Navigator
+
+
+1# Instalacja poprzez plik spec-file.txt
+# stworzenie nowego wirtualnego środowiska wraz z pakietami.
+project_inz_czarnoglowski_c jest nazwą, któą można dowolnie zmienić. Należy pamiętać
+żeby wskazać ewentualną ścieżkę do pliku
+
+conda create --name projekt_inz_czarnoglowski --file spec-file.txt
+
+#instalacja pakietów w istniejącym środowisku
+conda install --name projekt_inz_czarnoglowski --file spec-file.txt
+
+
+2#Ręczna instalacja pakietów na windows 10
+#Wersja pythona na której pracowałem 3.9.6
+#instalacja ręczna poprzez pip
+pip install -U scikit-learn
+pip install pandas matplotlib seaborn
+pip install tensorflow
+pip install openpyxl
+
+
